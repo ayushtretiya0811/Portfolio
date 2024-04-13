@@ -132,6 +132,7 @@
 }
 .sec-font{
     font-family: var(--sec-font);
+    font-weight: bold;
 }
 .t-font{
     font-family: var(--third-font);

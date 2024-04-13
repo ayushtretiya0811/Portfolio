@@ -31,9 +31,9 @@ function Nav() {
     <>
       <nav className={`navbar navbar-expand-lg ${scroll ? "scrolled" : ""}  ${isVisible ? "nav-slide-down" : ""}`}>
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          {/* <a className="navbar-brand" href="#">
             Navbar
-          </a>
+          </a> */}
           <button
             className="navbar-toggler"
             type="button"

@@ -34,6 +34,13 @@
   .first-img img{
     width: 100%;
 }
+.l-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 }
 

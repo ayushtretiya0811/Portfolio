@@ -74,10 +74,10 @@ return(
 <div className="container">
   <div className="row">
    
-    <div className="col-12 order-2 order-lg-1  col-lg-6 d-flex align-items-center justify-content-center">
-      <div className=" pe-5 fw-bolder text-capitalize left-text animated slideInFromLeft w-100">
-       <h2> Hey there<br/></h2>
-       <h3> I'm <span className='text-warning' >{text}<Cursor/></span> <br/></h3>
+    <div className="col-12  l-home order-2 order-lg-1  col-lg-6 d-flex align-items-center justify-content-center">
+      <div className=" pe-5  fw-bolder text-capitalize left-text animated slideInFromLeft w-100">
+       <h2 className=''> Hey there,<br/></h2>
+       <h3 className='sec-font'> I'm <span className='t-font text-warning' >{text}<Cursor/></span> <br/></h3>
       
       <a href={cv} download>
       <StyleButton >Download CV
