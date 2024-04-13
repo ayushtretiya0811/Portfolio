@@ -1,0 +1,76 @@
+.for-color {
+    background-color: aquamarine;
+  }
+  .left-text {
+    padding-bottom: 60px;
+  }
+  /* .nav-link:hover {
+    color: white;
+    border-radius: 40px;
+    background-color: #f95b2f;
+  } */
+
+  .nav-link{
+    border-radius: 40px;
+  }
+  nav{
+    background-color:#FFC107 ;
+  }
+  .left-text h2,
+  h3 {
+    font-size: 50px;
+  }
+  .first-img img{
+    width: auto;
+    height: 800px;
+}
+
+
+@media (max-width: 430px) {
+  .left-text h2,
+  h3 {
+    font-size: 30px;
+  }
+  .first-img img{
+    width: 100%;
+}
+
+}
+
+
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+   }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+   }
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+   }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+   }
+  }
+
+
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+   }
+   
+   .slideInFromRight {
+    animation-name: slideInFromRight;
+   }
+   
+   .slideInFromLeft {
+    animation-name: slideInFromLeft;
+   }
