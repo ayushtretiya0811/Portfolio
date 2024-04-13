@@ -1,156 +1,156 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /* .row >*{
     width: 100%;
     max-width: 100%;
 } */
-.about-header{
- /* background-color: rgb(226, 130, 85); */
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.05);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.5px);
--webkit-backdrop-filter: blur(11.5px);
- height:  190px;
+.about-header {
+  /* background-color: rgb(226, 130, 85); */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  height: 190px;
 }
-.about{
-    /* background-color: #f5a623; */
-    background-image: url('../../Assets/images/sky.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.about {
+  /* background-color: #f5a623; */
+  background-image: url("../../Assets/images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.header-img img{
+.header-img img {
   height: 400px;
   bottom: -132px;
-  position:absolute;
+  position: absolute;
 }
 
-.header-img{
-    overflow: hidden;
-    height: inherit;
-    position: relative;
+.header-img {
+  overflow: hidden;
+  height: inherit;
+  position: relative;
 }
-.full-main{
-    height: 600px;
-    position: relative;
+.full-main {
+  height: 600px;
+  position: relative;
 }
-.main-l
-{
-    background-color: #bfbfbf;
-    height: 600px;
+.main-l {
+  background-color: #bfbfbf;
+  height: 600px;
+}
+.main-r {
+  height: 600px;
+  background-color: #404040;
+}
+.about-main {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  /* transform: translate(-50%, -50%); */
+  height: 500px;
+  width: 500px;
 
-}
-.main-r
-{
-    height: 600px;
-    background-color: #404040;
-}
-.about-main{
-    position: absolute;
-    top: 33%; 
-    left: 33%; 
-    /* transform: translate(-50%, -50%); */
-    height: 500px;
-    width:  500px;
-
-background: rgba(255, 255, 255, 0.06);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.5px);
--webkit-backdrop-filter: blur(5.5px);
-border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 /*! --------------------------------------------------------------------- */
-.c-6{
-    background-color: #bfbfbf;
-    width: 200px;
-    height: 200px;
+.c-6 {
+  background-color: #bfbfbf;
+  width: 200px;
+  height: 200px;
 }
 
-
-.size{
-    font-size:large;
-    text-transform: capitalize;
+.size {
+  font-size: large;
+  text-transform: capitalize;
 }
-.progress{
-    overflow: visible;
-    position: relative;
+.progress {
+  overflow: visible;
+  position: relative;
 }
-.progress-bar span{
-    position: absolute;
-    top: -39px;
-    right: 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: #010101;
+.progress-bar span {
+  position: absolute;
+  top: -39px;
+  right: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010101;
 }
-.progress-bar{
-    position: relative;
-    overflow: visible;
-    /* background-color:#FFC107 ; */
-    background-color:#FFC107 ;
+.progress-bar {
+  position: relative;
+  overflow: visible;
+ 
+  /* background-color: #ffc107 !important; */
 }
-.l-info{
-    width: 100px;
-    font-weight: 700;
-    font-size: 14px;
-    color: black;
+.l-info {
+  width: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
 }
 .r-info {
-    width: calc(100% - 110px);
-    color: #FFC107;
+  width: calc(100% - 110px);
+  color: #ffc107;
 }
-.about-info{
-    display: inline-block;
-    width: 100%;
+.about-info {
+  display: inline-block;
+  width: 100%;
 }
-.r-info >a{
-    color: #FFC107;
+.r-info > a {
+  color: #ffc107;
 }
-@media  (max-width: 430px) {
-.about-main{
+
+
+@media (max-width: 512px) {
+  .about-main {
     position: absolute;
-    top: 43%; 
-    left: 14%; 
+    top: 43%;
+    left: 14%;
     /* transform: translate(-50%, -50%); */
     height: 300px;
-    width:  300px;
+    width: 300px;
 
-background: rgba(255, 255, 255, 0.06);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.5px);
--webkit-backdrop-filter: blur(5.5px);
-border: 1px solid rgba(255, 255, 255, 0.14);
-}
-.c-6{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  .c-6 {
     width: 100%;
-    
-}
-.gap-5{
+  }
+  .gap-5 {
     gap: 15px !important;
-}
-.r-info {
+  }
+  .r-info {
     width: calc(100% - 110px);
-    color: #FFC107;
-}
-.r-info >a{
-    color: #FFC107;
-}
-.l-info{
+    color: #ffc107;
+  }
+  .r-info > a {
+    color: #ffc107;
+  }
+  .l-info {
     width: 100px;
     font-weight: 700;
     font-size: 14px;
     color: black;
-}
-.progress-bar{
-    margin-bottom: 30px;
-    background-color:#FFC107 ;
-}
+  }
+  .progress-bar {
+    position: relative;
+    overflow: visible;
+    /* margin-bottom: 30px; */
+    background-color: #ffc107 !important;
+  }
+
 }
