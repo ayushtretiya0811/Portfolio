@@ -151,17 +151,17 @@ function About() {
 <div className="container mt-5">
   <div className="row">
     <div className="col-12 col-lg-5">
-        <div className="row gap-5">
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100" data-aos-duration="2000" className="col-12 col-lg-6 c-6"></div>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200" data-aos-duration="2000" className="col-12 col-lg-6 c-6"></div>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="2000" className="col-12 col-lg-6 c-6"></div>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000" className="col-12 col-lg-6 c-6"></div>
+        <div className="row gap-5 ">
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100" data-aos-duration="2000" className="col-12  col-lg-6 c-6"> <h5 className='t-font'>Project 3</h5></div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200" data-aos-duration="2000" className="col-12  col-lg-6 c-6"></div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="250" data-aos-duration="2000" className="col-12  col-lg-6 c-6"></div>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000" className="col-12  col-lg-6 c-6"></div>
      
         </div>
     </div>
     <div className="col-12 col-lg-7">
           <div className="tt">
-            <p data-aos="fade-right "  className='t-font'  data-aos-duration="1000">About Me</p>
+            <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-delay="100" data-aos-duration="1000" className='t-font'  >About Me</p>
             <h3 className='sec-font fw-bold' data-aos='fade-right' delay="1000"  data-aos-duration="1000" >A web Devloper based in Ahmedabad </h3>
           </div>
           {/* <div className="row">
@@ -401,22 +401,20 @@ function About() {
 
 
 
-<div  className="container">
-    <div className="row">
-        <div className="col-8">
-            <motion.h3 
-            initial={{opacity: 0, x: '-100%'}}
-            whileInView ={{opacity: 1, x: 0}}
-            // viewport={{once: true}}
-            transition={{duration: 1}}
-            >Experience</motion.h3>
-            {/* <h3 data-aos="fade-right">Experience</h3>
-            <h3 data-aos="fade-up">Experience</h3>
-            <h3 data-aos="fade-down">Experience</h3>
-            <h3 data-aos="fade-left">Experience</h3>
-            <h3 data-aos="fade-left">Experience</h3> */}
-        </div>
-    </div>
+<div  className="container text-center my-lg-5 my-3">
+    
+      
+            <h3 
+             data-aos="fade-right" data-aos-duration="1000"
+            className='sec-font fw-bold'
+            >Experience</h3>
+        
+       
+    
+</div>
+<div className="container">
+  <h5 data-aos="fade-in" data-aos-duration="1000" className='t-font text-capitalize'>I am currently in the process of completing my Bachelor of Computer Applications (BCA) degree, which has equipped me with a solid foundation in computer science principles, programming languages, and software development methodologies. Throughout my academic journey, I have gained a comprehensive understanding of various technologies and programming languages, including but not limited to HTML, CSS, JavaScript,React Js and Python.</h5><hr/>
+  <h5 data-aos="fade-in" data-aos-duration="1000"  data-aos-anchor-placement="bottom-bottom" className='t-font text-capitalize'>While I am still in the early stages of my career, I am eager to apply the knowledge and skills I have acquired to real-world projects. I am particularly interested in web development and software development, and I am committed to expanding my expertise in these areas.</h5>
 </div>
     
       </>

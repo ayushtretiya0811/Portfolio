@@ -34,7 +34,7 @@
 }
 .about {
   /* background-color: #f5a623; */
-  background-image: url("../../Assets/images/sky.jpg");
+  background-image: url("../../Assets/images/neon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,6 +80,9 @@
 
 /*! --------------------------------------------------------------------- */
 .c-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   background-color: #bfbfbf;
   width: 200px;
   height: 200px;
