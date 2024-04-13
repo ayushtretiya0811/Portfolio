@@ -1,6 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,189;1,189&family=Mulish:ital,wght@0,467;1,467&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,189;1,189&family=Mulish:ital,wght@0,467;1,467&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,189;1,189&family=Mulish:ital,wght@0,467;1,467&family=Ruda:wght@400..900&display=swap');
+
+
+
+
+:root{
+    --main-font : 'Mulish', sans-serif;
+    --sec-font : 'Libre Franklin', sans-serif;
+    --third-font : 'Alegreya Sans SC', sans-serif;
+    --fourth-font : 'Ruda', sans-serif;
+}
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* .row >*{
@@ -90,7 +105,7 @@
   position: relative;
   overflow: visible;
  
-  /* background-color: #ffc107 !important; */
+  background-color: #ffc107 !important;
 }
 .l-info {
   width: 100px;
@@ -109,8 +124,21 @@
 .r-info > a {
   color: #ffc107;
 }
-
-
+.main-font{
+    font-family: var(--main-font);
+}
+.sec-font{
+    font-family: var(--sec-font);
+}
+.t-font{
+    font-family: var(--third-font);
+}
+.f-font{
+    font-family: var(--fourth-font);
+}
+.skill p{
+    font-family: var(--third-font);
+  }
 @media (max-width: 512px) {
   .about-main {
     position: absolute;
@@ -150,7 +178,19 @@
     position: relative;
     overflow: visible;
     /* margin-bottom: 30px; */
-    background-color: #ffc107 !important;
+    background-color: #ffc107  !important;
+  }
+
+  .header-img{
+    display: none;
+  }
+  .ps-lg-5 {
+    /* margin-top: 10px; */
+    text-align: center;
+  }
+  .about-header{
+    height: 80px;
+    /* margin: auto; */
   }
 
 }

@@ -75,14 +75,14 @@ function About() {
       <>
       <div className="container-fluid  about ">
         <div className="row   about-header">
-          <div className="col-8 m-auto ps-lg-5 ">
+          <div className="col-8 m-auto ps-lg-5   ">
 
             <motion.h3 
             initial ={{opacity:0, x:-100}}
             animate={{opacity:1, x:0}}
             transition={{duration:0.7 , ease: 'linear'}}
           
-             className=' text-white '>About Me</motion.h3>
+             className=' text-white main-font '>About Me</motion.h3>
           </div>
           <div  className="col-4 header-img">
                  <motion.img 
@@ -94,7 +94,7 @@ function About() {
         </div>
       </div>
 
-      <div className="container-fluid  ">
+      {/* <div className="container-fluid  ">
         <div className="row full-main">
             <div
            
@@ -124,7 +124,7 @@ function About() {
                     transition={{duration: 0.7, ease: 'linear',  delay:0.3}}
                     
                     className="about-main-title fw-bold pt-2 h3">About Myself</motion.div>
-                    <p className='p-2 h5'>
+                    <p className='p-2 h5 sec-font'>
 
                 I’m a Creative web designer and Devloper on Ahmedabad, who loves clean and minimalistic design. I also enjoy crafting..
                     </p>
@@ -145,7 +145,7 @@ function About() {
             </motion.div>
         </div>
         
-      </div>
+      </div> */}
 
 
 <div className="container mt-5">
@@ -161,8 +161,8 @@ function About() {
     </div>
     <div className="col-12 col-lg-7">
           <div className="tt">
-            <p data-aos="fade-right"   data-aos-duration="1000">About Me</p>
-            <h3 data-aos='fade-right' delay="1000"  data-aos-duration="1000" >A web Devloper based in Ahmedabad </h3>
+            <p data-aos="fade-right "  className='t-font'  data-aos-duration="1000">About Me</p>
+            <h3 className='sec-font fw-bold' data-aos='fade-right' delay="1000"  data-aos-duration="1000" >A web Devloper based in Ahmedabad </h3>
           </div>
           {/* <div className="row">
             <div className="col-6">
@@ -200,42 +200,45 @@ function About() {
 <div class="col-lg-6 ">
 <ul class="about-info mt-4 px-md-0 px-2">
 <li class="d-flex mb-4 "><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info'>Name:</span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info t-font'>Name:</span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-duration="500"
      data-aos-anchor-placement="bottom-bottom"
      data-aos-offset="0" className='r-info'>Ayush Tretiya</span></li>
 <li class="d-flex mb-4"><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000"  className='l-info'>Date of birth:</span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000"  className='l-info t-font'>Date of birth:</span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-duration="500"
      data-aos-anchor-placement="bottom-bottom"
      data-aos-offset="0" className='r-info'>November 08, 2003</span></li>
 <li class="d-flex mb-4"><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000"  className='l-info'>Address:</span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000"  className='l-info t-font'>Address:</span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
    data-aos-duration="500"
    data-aos-anchor-placement="bottom-bottom"
     
      data-aos-offset="0" className='r-info'>Ahmedabad , Gujrat</span></li>
+
+<li class="d-flex mb-4"><StyleButton2 data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000"   className='l-info m-0'>Download CV:</StyleButton2> </li>
 </ul>
 </div>
 <div class="col-lg-6 ">
 <ul class="about-info mt-4 px-md-0 px-2">
 <li class="d-flex mb-4 "><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info'>Zip code:</span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info t-font'>Zip code:</span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-duration="500"
      data-aos-anchor-placement="bottom-bottom"
      data-aos-offset="0" className='r-info'>382418</span></li>
 <li class="d-flex mb-4"><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info'>Email:</span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info t-font'>Email:</span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-duration="500"
      data-aos-anchor-placement="bottom-bottom"
      data-aos-offset="0" className='r-info'><a class="email text-decoration-none " >ayushtretiya0811@gmail.com</a></span></li>
 <li class="d-flex mb-4"><span data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info'>Phone: </span> <span  data-aos="fade-zoom-in"
+     data-aos-anchor-placement="center-bottom"   data-aos-duration="1000" className='l-info t-font'>Phone: </span> <span  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-duration="500"
    data-aos-anchor-placement="bottom-bottom"
@@ -251,17 +254,20 @@ function About() {
 
 <div className="container-fluid mt-5">
   <div data-aos="fade-right" data-aos-duration="1000" className="skill h2  fw-bolder text-capitalize text-center">
-    <p data-aos="fade-right" className='h5'>skills</p>
+    <p data-aos="fade-right" className='h5 t-font'>skills</p>
+     <div className="f-font">
     My skills
+
+    </div>
   </div>
 </div>
 
-<div className="container">
+<div className="container skill">
   <div className="row">
     <div className="col-12 col-lg-4 mb-2">
-      <div className="row gap-5">
-        <div className="col-12">
-          <p>HTML</p>
+      <div className="row gap-5 ">
+        <div className="col-12 ">
+          <p className=''>HTML</p>
         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
   <motion.div
     initial={{opacity:0, width: "0%" }} 
